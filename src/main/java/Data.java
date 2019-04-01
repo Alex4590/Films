@@ -8,17 +8,8 @@ public class Data {
             new Film("3","фильм","Жестокий романс","мелодрама",new Date(),"Действие разворачивается на берегу Волги в вымышленном провинциальном городке Бряхимове в 1877-1878 годах.", 8.1),
     };
 
-    private User[] users = new User[] {
-            new User("Alex45","Alex","12345"),
-            new User("Anton10","Anton","1234"),
-    };
-
     public  Film[] getFilms() {
         return films;
-    }
-
-    public  User[] getUser() {
-        return users;
     }
 
 }
